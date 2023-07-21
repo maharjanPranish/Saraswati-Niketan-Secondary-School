@@ -1,0 +1,62 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box; 
+}
+body{
+  /* background-image: url(_DSC0593.JPG); */
+  background-size: cover;
+  background-repeat: no-repeat;
+   opacity: 100;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+}
+.head{
+  display:flex;
+  justify-content: center;
+}
+tr td{
+  padding: 12px;
+  margin: 4px;
+}
+.header{
+  font-size: 400px;
+}
+.flex{
+  color: yellow;
+}
+.name{
+  font-size: 3rem;
+}
+.personalinformation{
+  color: yellow;
+}
+.address{
+  color: yellow;
+}
+.contact{
+  color: yellow;
+}
+.qualification{
+  color: rgb(236, 233, 26);
+}
+.educationdetails{
+  color: yellow;
+}
+.anything{
+  color: yellow;
+}
+fieldset{
+  padding:1.25rem;
+  margin: 0.8rem;
+}
+
+
+
+
+
+	
+
+

@@ -1,0 +1,95 @@
+
+/* local language local curriculum */
+
+.local-curriculum {
+    color: yellow;
+    padding: 3rem 1rem;
+    text-align: justify;
+
+
+
+
+
+
+
+
+
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.local-curriculum-head {
+    text-align: center;
+    padding: 1rem;
+}
+
+.local-curriculum > p {
+    margin-top: 1rem;
+}
+
+/* local language local curriculum */
+
+
+
+
+
+
+
+
+
+
+
+
+/* nepal bhasa teacher messages */
+
+.message-box {
+    background-color: rgb(127, 157, 225);
+    color: black;
+    /* background-color: rgb(241, 50, 50); */
+    background-color: black;
+    /* border: 1px solid red; */
+    color: rgb(248, 125, 125);
+    /* background-color: black;
+    color: red; */
+    padding: 1rem;
+    border-top-right-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+
+    /* display: flex; */
+}
+
+/* .message-collection {
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+.message {
+    background-color: rgb(66, 66, 165);
+    /* color: rgb(127, 157, 225); */
+    color: white;
+    background-color: black;
+    color: rgb(248, 125, 125);
+    border: 1px solid red;
+    margin: 1rem 0.5rem;
+    padding: 1rem;
+    border-top-right-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+}
+
+/* .message1 {}
+
+.message2 {}
+
+.message3 {} */
+
+.photo {
+    height: 30vh;
+    border: 0.14rem solid yellow;
+    border-radius: 50%;
+    aspect-ratio: 14.81 / 14.97;
+}
+
+/* nepal bhasa teacher messages */

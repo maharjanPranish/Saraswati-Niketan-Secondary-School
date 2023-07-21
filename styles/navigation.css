@@ -1,0 +1,32 @@
+nav {
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    background-color: #1d1d36;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+nav ul {
+    width: 100vw;
+    margin: 0.8rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    list-style-type: none;
+    padding:1rem 0.5rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li a:hover {
+    transition: all 1s ease;
+    color: rgb(255, 255, 0);
+}

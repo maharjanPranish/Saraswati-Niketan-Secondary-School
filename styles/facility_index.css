@@ -1,0 +1,47 @@
+.web{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.outerbox{
+    background-color: rgb(239 239 72);
+    border-radius: 20px;
+    justify-content: space-between;
+    height: fit-content;
+    width: 400px;
+    border: 2px  solid black;
+    text-align: justify;
+    margin: 0.5rem;
+    flex-grow: 1;
+    flex-shrink: 1;
+    color: rgb(82, 75, 75);
+    padding: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.pictures{
+    height: 200px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    margin:1rem auto; 
+}
+
+h1{
+    margin: 1rem;
+    text-align: center;
+}
+
+h3{
+    background-color: rgb(2, 37, 58);
+    justify-content: center;
+    text-align: center;
+    color: antiquewhite;
+}
+
+@media screen and(max-width:600px){
+    .web{
+        width:100%;
+    }
+}

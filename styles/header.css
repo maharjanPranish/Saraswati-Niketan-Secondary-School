@@ -1,0 +1,29 @@
+.top {
+    height: 14vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.item ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+
+}
+
+.item ul li {
+    list-style: none;
+
+}
+
+.item ul li a {
+    padding: 1.438rem;
+    text-decoration: none;
+    color: #000;
+}
+
+.logo {
+    height: 10vh;
+}

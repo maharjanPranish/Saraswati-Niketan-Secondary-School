@@ -1,0 +1,100 @@
+.paragraph{ 
+    display: flex;
+    font-size: xx-large;
+    font-weight: bolder;
+    color:black;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+} 
+.content{
+    font-size: 25px;
+    text-align: justify;
+    font-weight:100;
+    color:black;
+    margin: 1rem;
+    padding: 1rem;
+    /* font-family:Georgia, 'Times New Roman', Times, serif; */
+}
+.color{
+    background-color:rgb(108,108,216);
+}
+.grade{
+    width: fit-content;
+    border-bottom: 1px solid white;
+    color:black;
+}
+.class{
+    margin-left:1rem;
+    border-left:1px solid white;
+    padding: 1rem;
+    font-weight:300;
+    font-size: larger;
+}
+.class::before{
+    content: "";
+    border: 0.5rem solid white;
+    border-radius: 50%;
+    position: absolute;
+    left: 0.5rem;    
+}
+.order{
+    margin-left:2rem;
+    border-left:2px solid rgb(248, 245, 245);
+    padding: 2rem;
+    font-weight:200;
+}
+.wrap
+{
+    font-size: large;
+    font-weight: 700;
+    color:black;
+    
+}
+.flex{
+    display: flex;
+    flex-grow: 1;
+   justify-content: center;
+    flex-direction: row;
+    margin: 1rem;
+    flex-wrap: wrap; 
+}
+h3{
+    font-size: larger;
+    font-weight: 300;
+    color: black;
+    text-align: center;
+}
+.none
+{
+    list-style: none;
+    text-align: center;
+    margin: 0.5rem;
+}
+.pictures
+{
+    height: 20vh;
+    border-radius: 20px;
+    gap: 10px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+.teacher{
+    height: fit-content;
+    justify-content: space-between;
+    background-color: yellow;
+    border-radius: 20px;
+    border:5px solid #010101;
+    text-align: justify;
+    margin:1rem;
+    gap: 20px;
+}
+
+.contact-links{
+    text-decoration: none;
+color: black;
+cursor: pointer;
+    /* color: transparent; */
+}
