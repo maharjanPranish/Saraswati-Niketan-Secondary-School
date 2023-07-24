@@ -67,9 +67,6 @@
 } */
 
 .message {
-    background-color: rgb(66, 66, 165);
-    /* color: rgb(127, 157, 225); */
-    color: white;
     background-color: black;
     color: rgb(248, 125, 125);
     border: 1px solid red;
@@ -79,11 +76,6 @@
     border-bottom-left-radius: 1.5rem;
 }
 
-/* .message1 {}
-
-.message2 {}
-
-.message3 {} */
 
 .photo {
     height: 30vh;
