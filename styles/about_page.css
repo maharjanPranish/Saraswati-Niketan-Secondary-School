@@ -78,6 +78,11 @@ h1 {
     border-radius: 2rem;
 }
 
+.individual-staff a{
+    /* text-decoration: none; */
+    color: wheat;
+}
+
 
 
 /*  */

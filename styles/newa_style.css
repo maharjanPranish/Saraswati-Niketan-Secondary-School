@@ -54,7 +54,9 @@
     color: rgb(248, 125, 125);
     /* background-color: black;
     color: red; */
+    text-align: center;
     padding: 1rem;
+    margin: 1rem;
     border-top-right-radius: 1.5rem;
     border-bottom-left-radius: 1.5rem;
 
@@ -74,6 +76,10 @@
     padding: 1rem;
     border-top-right-radius: 1.5rem;
     border-bottom-left-radius: 1.5rem;
+}
+
+.message-head{
+    /* tal */
 }
 
 
