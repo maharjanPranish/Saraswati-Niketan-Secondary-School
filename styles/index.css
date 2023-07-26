@@ -187,6 +187,9 @@ body {
     color: rgb(252 186 99);
     /* align-items: center; */
 }
+.picture-row img{
+    margin: 0.2rem;
+}
 
 /* .images {
     display: flex;
