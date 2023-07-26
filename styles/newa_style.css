@@ -5,16 +5,7 @@
     color: yellow;
     padding: 3rem 1rem;
     text-align: justify;
-
-
-
-
-
-
-
-
-
-    height: 100vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -82,7 +73,11 @@
     /* tal */
 }
 
-
+.pictures{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 .photo {
     height: 30vh;
     border: 0.14rem solid yellow;
@@ -91,3 +86,8 @@
 }
 
 /* nepal bhasa teacher messages */
+
+.teacher-photo{
+    display: flex;
+    flex-direction: column;
+}
