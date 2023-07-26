@@ -30,3 +30,7 @@ nav ul li a:hover {
     transition: all 1s ease;
     color: rgb(255, 255, 0);
 }
+
+.active{
+    color: rgb(252 186 99);
+}
