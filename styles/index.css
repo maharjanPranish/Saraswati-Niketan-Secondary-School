@@ -146,22 +146,6 @@ align-items: center;
     display: none;
 }
 
-@media screen and (max-width: 900px){
-    .container-1{
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .picture-element{
-
-        width: 100vw;
-    }
-    .element-flex{
-        display: block;
-    }
-    .element-grid{
-        display: none;
-    }
-}
 
 
 .element{
@@ -262,24 +246,10 @@ align-items: center;
     flex-wrap: wrap;
 }
 
-/* .col{
-      
-        padding: 10px;
-        display: flex;
-        justify-content: space-evenly;
-    } */
-/* .pic {
-    padding: 0px;
-} */
-
 #btn-1 {
     border: none;
     margin: 0 auto;
-    /* padding: 13px; */
     padding: 0.82rem;
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
     background-color: #5c5adb;
     color: #fff;
 }
@@ -297,11 +267,7 @@ align-items: center;
 #btn-2 {
     border: none;
     margin: 0 auto;
-    /* padding: 13px; */
     padding: 0.82rem;
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
     background-color: #5c5adb;
     color: #fff;
 }
@@ -328,29 +294,17 @@ display: grid;
 grid-template-columns: 5fr 1fr;
 height: 2.9vh;
 margin: 0.2rem 1rem 3rem 1rem;
-/* margin-bottom: 3rem; */
-/* margin-top: 0.2rem; */
 }
 
 input[type=text] {
-    /* width: 85%; */
-    /* width: inherit; */
     padding: 1rem;
-    /* margin: 0.25rem 38px 22px 52px; */
-    /* margin-right: 0; */
-    /* display: inline-block; */
     border: none;
     background: #f1f1f1;
 }
 
 #btn-sign {
-    /* position: relative; */
     border: none;
     padding: 0.7rem;
-    /* margin: -42px; */
-    /* margin: 0; */
-    /* height: 52px; */
-    /* height: inherit; */
     color: #fff;
     background-color: #2d2d2f;
 }
@@ -362,86 +316,31 @@ input[type=text] {
     background-image: linear-gradient(to right, rgb(235, 166, 230), #76e0cc);
 }
 .mail {
-    /* display: flex; */
-    /* justify-content: flex-start; */
     margin-left: 3rem;
-    /* align-items: flex-start; */
 }
 
 
 
+     @media screen and (max-width: 400px){
+        .container-1{
+            display: flex;
+            flex-wrap: wrap;
+        }
 
-/* 
-.content{
-        max-width: 1170px;
-        margin:auto;
-    }
-    .picture-row{
-        display: flex;
-        flex-wrap: wrap;
-    }
-    ul{    
-        list-style: none;
-    } */
-/* .footer{
-        background-color: #24262b;
-        padding: 1px 0;
-    }
-    .footer-col{
-       width: 25%;
-       padding: 0 15px;
-    }
-    .footer-col h4{
-        font-size: 18px;
-        color: #ffffff;
-        text-transform: capitalize;
-        margin-bottom: 35px;
-        font-weight: 500;
-        position: relative;
-    }
-    .footer-col h4::before{
-        content: '';
-        position: absolute;
-        left:0;
-        bottom: -10px;
-        background-color: #e91e63;
-        height: 2px;
-        box-sizing: border-box;
-        width: 50px;
-    }
-    .footer-col ul li:not(:last-child){
-        margin-bottom: 10px;
-    }
-    .footer-col ul li a{
-        font-size: 16px;
-        text-transform: capitalize;
-        color: #ffffff;
-        text-decoration: none;
-        font-weight: 300;
-        color: #bbbbbb;
-        display: block;
-        transition: all 0.3s ease;
-    }
-    .footer-col ul li a:hover{
-        color: #ffffff;
-        padding-left: 8px;
-    }
-    .footer-col .social-links a{
-        display: inline-block;
-        height: 40px;
-        width: 40px;
-        background-color: rgba(255,255,255,0.2);
-        margin:0 10px 10px 0;
-        text-align: center;
-        line-height: 40px;
-        border-radius: 50%;
-        color: #ffffff;
-        transition: all 0.5s ease;
-    }
-    span{
-        display: flex;
-        justify-content: center;
-        font-weight: 700;
-        color:white;
-    }
-     */
+        .order-1 {
+            order: 1;
+        }
+
+        .order-2 {
+            order: 2;
+        }
+        
+        .order-3 {
+            order: 3;
+        }
+        
+        
+        .order-4 {
+            order: 4;
+        }
+            }
