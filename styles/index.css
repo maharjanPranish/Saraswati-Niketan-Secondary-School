@@ -41,17 +41,10 @@ body {
 }
 
 .welcome {
-    /* opacity: 0.5; */
-    /* height: fit-content; */
-    /* width: fit-content; */
     background-color: rgb(255, 255, 255, 0.2);
-    text-shadow: 2px 2px rgb(252 186 99);
+    text-shadow: 2px 2px rgb(0, 0, 128);
     border-radius: 1rem;
-    /* text-align: center; */
-    /* color: rgb(217, 255, 0); */
-    color: #1d1d36;
-    /* margin: auto 0; */
-    /* background-color: purple; */
+    color: rgb(128, 0, 128);
 }
 
 .btn {

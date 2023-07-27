@@ -1,4 +1,14 @@
-.ranjana-school-name{
+ @font-face {
+    font-family: myFirstFont;
+    src: url(../font/NotoSansNewa-Regular.otf);
+ }
+ 
+ .prachalit{
+    font-family: myFirstFont;
+ }
+
+
+ .ranjana-school-name{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -13,6 +23,7 @@
 /* local language local curriculum */
 
 .local-curriculum {
+    font-family: ranjana;
     color:rgb(251 213 40);
     padding: 3rem 1rem;
     text-align: justify;
@@ -80,9 +91,6 @@
     border-bottom-left-radius: 1.5rem;
 }
 
-.message-head{
-    /* tal */
-}
 
 .pictures{
     display: flex;
