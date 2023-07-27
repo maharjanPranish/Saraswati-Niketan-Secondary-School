@@ -1,11 +1,22 @@
+.ranjana-school-name{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.ranjana-school-name-word{
+    height: 5rem;
+}
+
+
 
 /* local language local curriculum */
 
 .local-curriculum {
-    color: yellow;
+    color:rgb(251 213 40);
     padding: 3rem 1rem;
     text-align: justify;
-    height: 80vh;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     justify-content: center;

@@ -1,492 +1,338 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Addmission</title>
-    <link rel="stylesheet" href="../styles/admission.css">
+    <title>Document</title>
+
     <link rel="stylesheet" href="../styles/base.css">
+
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/navigation.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+
+    <link rel="stylesheet" href="../styles/admission.css">
+
+
 </head>
+<style>
+    h6{
+        margin: 0;
+    }
+    main {
+        max-width: 500px;
+        margin: auto;
+        /* background-color: royalblue; */
+    }
+
+    label {
+        cursor: pointer;
+    }
+
+    fieldset {
+        display: grid;
+    }
+    .gender-box{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    option{
+        background: url("library.jpg");
+    }
+    
+</style>
+
 <body>
-    <div class="flex">
-     <div class="name">
-        <center> 
-            Saraswati Niketan Secondary School 
-        </center>
-    </div>
-     <center>
-             Bramha tole-12,Kathamandu
-            <h2> Admission Form</h2> 
-     </center>      
-    </div>
+    <header>
+        <div class="top">
 
-    <!-- form start -->
-    <div class="body">
-        <form>
-            <div class="personalinformation">
-                <Fieldset ><table>
-            <legend><center><h1>Personal Information</h1></center></legend>
-            <tr>
-                <td>
-                   Name:
-                </td>
-                <td>
-                    <input type="text" placeholder="Name" name="">
-                </td>
-                <td>
-                    <input type="text" placeholder="Middle Name" name="">
-                </td>
-                <td>
-                    <input type="text" placeholder="Last Name" name="">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Date of Birth:
-                </td>
-                <td>
-                    <input type="date">
-                </td>
-                    <td>
-                        Gender:
-                    </td>
-                    <td>
-                        <input type="radio" name="gender">Male
-                        <input type="radio" name="gender">Female
-                    </td>
-            </tr>
-            <tr>
-                <td>
-                    Father 
-                </td>
-                <td>
-                    <input type="text" placeholder="Name" name="">
-                </td>
-                <td>
-                    <input type="text" placeholder="Middle Name" name="">
-                </td>
-                <td>
-                    <input type="text" placeholder="Last Name" name="">
-                </td>
-                <tr>
-                    <td>
+            <img src="pictures/logo_saraswati-niketan.png" alt="" srcset="" class="logo">
 
-                    </td>
-                    <td>
-                        <input type="text" placeholder="Profession" name="">  
-                    </td>
-                    <td>
-                        <input type="text" placeholder="Phone Number" name="">
-                    </td>
-                    <td>
-                        <input type="text" placeholder="Mobile Number" name="">
-                    </td>
-                </tr>
-            </tr>
-            <tr>
-                <td>
-                   Mother 
-                </td>
-                <td>
-                    <input type="text" placeholder="Name" name="">
-                </td>
-                <td>
-                    <input type="text" placeholder="Middle Name" name="">
-                </td>
-                <td>
-                    <input type="text" placeholder="Last Name" name="">
-                </td>
-                <tr>
-                    <td>
-                        
-                    </td>
-                    <td>
-                        <input type="text" placeholder="Profession" name="">  
-                    </td>
-                    <td>
-                        <input type="text" placeholder="Phone Number" name="">
-                    </td>
-                    <td>
-                        <input type="text" placeholder="Mobile Number" name="">
-                    </td>
-                </tr>
-            </tr>
-        </table>
-        </Fieldset>
-        </div>
+            <div class="item">
+                <ul>
+                    <li><a href="https://www.facebook.com/profile.php?id=100057614831278" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor"
+                                class="bi bi-facebook" viewBox="0 0 16 16">
+                                <path
+                                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                            </svg></a></li>
+
+                    <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor"
+                                class="bi bi-youtube" viewBox="0 0 16 16">
+                                <path
+                                    d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
+                            </svg></a></li>
 
 
-        <!-- Address section -->
-            <div class="address">
-                   <fieldset> <legend><center><h1>Address</h1></center></legend>
-                <table>
-                    <h3> Temporary Address</h3>
-                        <tr>
-                    <td> Province</td>
-                    <td>
-                            <select>
-                                <option>Select Option</option>
-                                <option>Koshi</option>
-                                <option>Madhesh</option>
-                                <option selected>Bagmati</option>
-                                <option>Gandaki</option>
-                                <option>Lumbini</option>
-                                <option>Karnali</option>
-                                <option>Sudurpashchim</option>
-                            </select>
-                    </td>
-                    <td>
-                        District
-                    </td>
-                    <td>
-                        <select>
-                            <option>Bhojpur</option>
-                            <option>Dhunkuta</option>
-                            <option>Ilam</option>
-                            <option >Jhapa</option>
-                            <option>Khotang</option>
-                            <option>Morang</option>
-                            <option>Okhaldhunga</option>
-                            <option>Pachthar</option>
-                            <option>Sankhuwasabha</option>
-                            <option>Solukhumbu</option>
-                            <option>Sunsari</option>
-                            <option >Taplejung</option>
-                            <option>Terhathum</option>
-                            <option>Udayapur</option>
-                            <option>Bara</option>
-                            <option>Dhanusa</option>
-                            <option>Mahottari</option>
-                            <option>Dhunkuta</option>
-                            <option>Parsa</option>
-                            <option >Rautahat</option>
-                            <option>Saptari</option>
-                            <option>Sarlahi</option>
-                            <option>Siraha</option>
-                            <option>Bhaktapur District</option>
-                            <option>Chitwan</option>
-                            <option>Dhading</option>
-                            <option>Dolakha</option>
-                            <option selected>Kathmandu</option>
-                            <option>Kavrepalanchok</option>
-                            <option>Lalitpur</option>
-                            <option>Makawanpur</option>
-                            <option>Nuwakot District</option>
-                            <option>Ramechhap</option>
-                            <option>Rasuwa</option>
-                            <option>Sindhuli</option>
-                            <option>Sindhupalchok</option>
-                            <option>Baglung</option>
-                            <option>Gorkha</option>
-                            <option>Kaski</option>
-                            <option>Lamjung</option>
-                            <option>Manang</option>
-                            <option>Mustang</option>
-                            <option>Myagdi</option>
-                            <option>Nawalpur</option>
-                            <option>Parbat</option>
-                            <option>Syangja</option>
-                            <option>Tanahu District</option>
-                            <option>Arghakhanchi</option>
-                            <option>Banke</option>
-                            <option>Bardiya</option>
-                            <option>Dang</option>
-                            <option>Gulmi</option>
-                            <option>Kapilvastu</option>
-                            <option>Parasi</option>
-                            <option>Palpa</option>
-                            <option>Pyuthan</option>
-                            <option>Rolpa</option>
-                            <option>Rukum</option>
-                             <option>Rupandehi</option>
-                            <option>Dailekh District</option>
-                            <option>Dolpa District</option>
-                            <option>Humla District</option>
-                            <option>Jajarkot District</option>
-                            <option>Jumla District</option>
-                            <option>Kalikot District</option>
-                            <option>Mugu District</option>
-                            <option>Rukum Paschim District</option>
-                            <option>Salyan District</option>
-                            <option>Surkhet District</option> 
-                            <option>Achham</option>
-                            <option>Baitadi</option>
-                            <option>Bajhang</option>
-                            <option>Bajura</option>
-                            <option>Dadeldhura</option>
-                            <option>Darchula</option>
-                            <option>Doti</option>
-                            <option>Kailali</option>
-                            <option>Kanchanpur</option>
-                        </select>  
-                    </td>
-                    <td>
-                       Local Goverment
-                    </td>
-                    <td>
-                        <input type=" local goverment" placeholder="">
-                    </td>
-                    <td>
-                        Ward
-                    </td>
-                    <td>
-                        <input type=" wad" placeholder="">
-                    </td>
-                </tr>
-                </table>
-                <table>
-                <h3> Permanent  Address</h3>
-                        <tr>
-                    <td> Province</td>
-                    <td>
-                            <select>
-                                <option>Select Option</option>
-                                <option>Koshi</option>
-                                <option>Madhesh</option>
-                                <option selected>Bagmati</option>
-                                <option>Gandaki</option>
-                                <option>Lumbini</option>
-                                <option>Karnali</option>
-                                <option>Sudurpashchim</option>
-                            </select>
-                    </td>
-                    <td>
-                        District
-                    </td>
-                    <td>
-                        <select>
-                            <option>Bhojpur</option>
-                            <option>Dhunkuta</option>
-                            <option>Ilam</option>
-                            <option >Jhapa</option>
-                            <option>Khotang</option>
-                            <option>Morang</option>
-                            <option>Okhaldhunga</option>
-                            <option>Pachthar</option>
-                            <option>Sankhuwasabha</option>
-                            <option>Solukhumbu</option>
-                            <option>Sunsari</option>
-                            <option >Taplejung</option>
-                            <option>Terhathum</option>
-                            <option>Udayapur</option>
-                            <option>Bara</option>
-                            <option>Dhanusa</option>
-                            <option>Mahottari</option>
-                            <option>Dhunkuta</option>
-                            <option>Parsa</option>
-                            <option >Rautahat</option>
-                            <option>Saptari</option>
-                            <option>Sarlahi</option>
-                            <option>Siraha</option>
-                            <option>Bhaktapur District</option>
-                            <option>Chitwan</option>
-                            <option>Dhading</option>
-                            <option>Dolakha</option>
-                            <option selected>Kathmandu</option>
-                            <option>Kavrepalanchok</option>
-                            <option>Lalitpur</option>
-                            <option>Makawanpur</option>
-                            <option>Nuwakot District</option>
-                            <option>Ramechhap</option>
-                            <option>Rasuwa</option>
-                            <option>Sindhuli</option>
-                            <option>Sindhupalchok</option>
-                            <option>Baglung</option>
-                            <option>Gorkha</option>
-                            <option>Kaski</option>
-                            <option>Lamjung</option>
-                            <option>Manang</option>
-                            <option>Mustang</option>
-                            <option>Myagdi</option>
-                            <option>Nawalpur</option>
-                            <option>Parbat</option>
-                            <option>Syangja</option>
-                            <option>Tanahu District</option>
-                            <option>Arghakhanchi</option>
-                            <option>Banke</option>
-                            <option>Bardiya</option>
-                            <option>Dang</option>
-                            <option>Gulmi</option>
-                            <option>Kapilvastu</option>
-                            <option>Parasi</option>
-                            <option>Palpa</option>
-                            <option>Pyuthan</option>
-                            <option>Rolpa</option>
-                            <option>Rukum</option>
-                             <option>Rupandehi</option>
-                            <option>Dailekh District</option>
-                            <option>Dolpa District</option>
-                            <option>Humla District</option>
-                            <option>Jajarkot District</option>
-                            <option>Jumla District</option>
-                            <option>Kalikot District</option>
-                            <option>Mugu District</option>
-                            <option>Rukum Paschim District</option>
-                            <option>Salyan District</option>
-                            <option>Surkhet District</option> 
-                            <option>Achham</option>
-                            <option>Baitadi</option>
-                            <option>Bajhang</option>
-                            <option>Bajura</option>
-                            <option>Dadeldhura</option>
-                            <option>Darchula</option>
-                            <option>Doti</option>
-                            <option>Kailali</option>
-                            <option>Kanchanpur</option>
-                        </select> 
-                    </td>
-                    <td>
-                       Local Goverment
-                    </td>
-                    <td>
-                        <input type=" local goverment" placeholder="">
-                    </td>
-                    <td>
-                      Ward
-                    </td>
-                    <td>
-                        <input type=" wad" placeholder="">
-                    </td>
-                </tr>
-            </table>
-            </fieldset>
+                </ul>
+
             </div>
-
-            <!-- contact section -->
-           <div class="contact">
-            <fieldset><legend><center><h1>Contact</h1> </center> </legend>
-            <table>
-            <tr>
-                <td>
-                    Phone Number:
-                </td>
-                <td>
-                    <input type="phone" placeholder="123-456-789">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Email Id:
-                </td>
-                <td>
-                    <input type="email" placeholder="example@gmail.com">
-                </td>
-            </tr>
-            </tr>
-        </table>
-        </fieldset>
         </div>
 
+    </header>
 
-        <!-- qualifaction -->
-        <div class="qualification">
-            <fieldset><legend><center><h1>Coursec Preference</h1> </center></legend>
-            <table>
-                <tr>
-                    <td>
-                        Level
-                    </td>
-                    <td>
-                        <select>
-                            <option>Select Option</option>
-                            <option>10+2</option>
-                            <option>Secondary level</option>
-                            <option>Primary Level</option>
-                        </select>
-                    </td>
-                    <td>
-                        Faculty 
-                    </td>
-                    <td>
-                        <select>
-                            <option>Computer Engineering</option>
-                            <option>General</option>
-                        </select>
-                    </td>
-                    </td>
-                </tr>
-            </table>
-            </fieldset>
-        </div>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../pages/facility_index.html">Facilities</a></li>
+            <li><a href="../pages/event.html">Events</a></li>
+            <li><a href="../pages/newa-page.html">Nepal Bhasa</a></li>
+            <li><a href="../pages/technology.html">Technical</a></li>
+            <li><a href="../pages/about.html">About</a></li>
+            <li><a href="../pages/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+        <main>
+            <form action="" method="get">
+                <fieldset>
+                    <legend>
+                        Personal information
+                    </legend>
+
+                    <label for="student-name">
+                        Name:
+                    </label>
+                    <input type="text" name="student-name" id="student-name">
+
+                    <label for="date-of-birth">
+                        Date of Birth:
+                    </label>
+                    <input type="date" name="date-of-birth" id="date-of-birth">
+
+                    <section class="gender-box">
+                        <label for="gender">
+                            Gender:
+                        </label>
+                        <div>
+                            <input type="radio" name="male" value="male" id=""> Male
+                        </div>
+                        <div>
+                            <input type="radio" name="female" value="female" id=""> Female
+                        </div>
+                    </section>
+
+                    <label for="blood">
+                        Blood Group:
+                    </label>
+                    <select name="" id="blood">
+                        <option value="A+">A+ (A positive)</option>
+                        <option value="A-">A- (A negative)</option>
+                        <option value="B+">B+ (B positive)</option>
+                        <option value="B-">B- (B negative)</option>
+                        <option value="O+">O+ (O positive)</option>
+                        <option value="O-">O- (O negative)</option>
+                        <option value="AB+">AB+ (AB positive)</option>
+                        <option value="AB-">AB- (AB negative)</option>
+                    </select>
+
+                    <label for="religion">
+                        Religioin
+                    </label>
+                    <select name="religion" id="religion">
+                        <option value="Hinduisum">
+                            Hinduism
+                        </option>
+                        <option value="Buddhism">
+                            Buddhism
+                        </option>
+                        <option value="Islam">
+                            Islam
+                        </option>
+                        <option value="Kirant">
+                            Kirant
+                        </option>
+                        <option value="Christianity">
+                            Christianity
+                        </option>
+                        <option value="other">
+                            Other
+                        </option>
+                    </select>
+
+                    <label for="nationality">
+                        Nationality
+                    </label>
+                    <input type="text" name="nationality" id="nationality">
+
+                    <label for="other-information">
+                        Other information about child:
+                    </label>
+                    <textarea name="other-information" id="other-information" cols="20" rows="10"></textarea>
+                </fieldset>
+
+                <fieldset>
+                    <legend>
+                        Academic information
+                    </legend>
+
+                    <label for="admission-for">
+                        Admission sought for:
+                    </label>
+                    <select name="admission-for" id="admission-for">
+                        <option value="class-ECD">
+                            ECD
+                        </option>
+                        <option value="class-1">
+                            Class 1
+                        </option>
+                        <option value="class-2">
+                            Class 2
+                        </option>
+                        <option value="class-3">
+                            Class 3
+                        </option>
+                        <option value="class-4">
+                            Class 4
+                        </option>
+                        <option value="class-5">
+                            Class 5
+                        </option>
+                        <option value="class-6">
+                            Class 6
+                        </option>
+                        <option value="class-7">
+                            Class 7
+                        </option>
+                        <option value="class-8">
+                            Class 8
+                        </option>
+                        <option value="class-9G">
+                            Class 9 (General)
+                        </option>
+                        <option value="class-9CE">
+                            Class 9 (Computer Engineering)
+                        </option>
+                        <option value="class-10G">
+                            Class 10 (General)
+                        </option>
+                        <option value="class-10CE">
+                            Class 10 (Computer Engineering)
+                        </option>
+                        <option value="class-11CE">
+                            Class 11 (Computer Engineering)
+                        </option>
+                        <option value="class-12CE">
+                            Class 12 (Computer Engineering)
+                        </option>
+                    </select>
+
+                    <label for="previous-school">
+                        Previous school:
+                    </label>
+                    <input type="text" name="previous-school" id="previous-school">
+                </fieldset>
+
+                <fieldset>
+                    <legend>
+                        Parent's information
+                    </legend>
+
+                    <label for="father-name">
+                        Father's name:
+                    </label>
+                    <input type="text" name="father-name" id="father-name">
+
+                    <label for="father-contact">
+                        Father's contact:
+                    </label>
+                    <input type="tel" name="father-contact" id="father-contact">
+
+                    <label for="mother-name">
+                        Mother's name:
+                    </label>
+                    <input type="text" name="mother-name" id="mother-name">
+
+                    <label for="mother-contact">
+                        Mother's contact:
+                    </label>
+                    <input type="tel" name="mother-contact" id="mother-contact">
+                </fieldset>
+
+                <fieldset>
+                    <legend>
+                        Guardian's information
+                    </legend>
+                    
+                    <label for="guardian-name">
+                        Guardian's name:
+                    </label>
+                    <input type="text" name="guardian-name" id="guardian-name">
+                    
+                    <label for="guardian-contact">
+                        Guardian's contact:
+                    </label>
+                    <input type="tel" name="guardian-contact" id="guardian-contact">
+                    
+                    <h6>(to be filled if any one other than father/mother)</h6>
+                </fieldset>
+
+                <button type="submit" value="submit">Submit</button>
+                <button type="reset" value="reset">Reset</button>
+            </form>
+        </main>
+
+        <footer class="footer">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>QUICK NAVIGTION</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="pages/facility_index.html">Facilities</a></li>
+                        <li><a href="pages/event.html">Events</a></li>
+                        <li><a href="pages/newa-page.html">Nepal Bhasa</a></li>
+                        <li><a href="pages/technology.html">Technical</a></li>
+                        <li><a href="pages/about.html">About</a></li>
+                        <li><a href="pages/contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>STAY CONNECTED</h4>
+                    <ul>
+                        <li><a href="https://www.facebook.com/profile.php?id=100057614831278">Facebook</a></li>
+                        <li><a href="#">Youtube</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>GET IN TOUCH</h4>
+                    <ul>
+                        <li><a href="#">Bramha tole-12, Kathmandu, Nepal</a></li>
+                        <li><a href="tel:+977015355489">Tel: 01-5355489</a></li>
+                        <li><a
+                                href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSMTgnwClZvRhFwTfHDHXVPgLRFCXJGwgjxxlhLhGmrjPdWHZQrlpjQgJgRpbXrLmVBXZchS">
+                                snmvschool@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <!-- facebook -->
+                        <a href="https://www.facebook.com/profile.php?id=100057614831278" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor"
+                                class="bi bi-facebook" viewBox="0 0 16 16">
+                                <path
+                                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                            </svg>
+                        </a>
+    
+    
+                        <!-- youtube -->
+                        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor"
+                                class="bi bi-youtube" viewBox="0 0 16 16">
+                                <path
+                                    d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
+                            </svg></a>
+    
+                    </div>
+                </div>
+            </div>
+            <span class="copyright">Copyright&#9400;Shree Saraswati Niketan Secondary School</span>
+        </footer>
 
 
-        <!-- education details -->
-        <div class="educationdetails">
-           <fieldset><legend><center><h1>Education Details</h1></center></legend>
-            <table>
-                <tr>
-                    <td>
-                       Acadmic Qualifaction
-                    </td>
-                    <td>
-                        <select>
-                            <option>Select Option</option>
-                            <option>Nurasry</option>
-                            <option>LKG</option>
-                            <option>UKG</option>
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
-                            <option>6</option>
-                            <option>7</option>
-                            <option>8</option>
-                            <option>9</option>
-                            <option>10</option>
-                        </select>
-                    </td>
-                    <td>
-                        <input type="text" placeholder="School Name">
-                    </td>
-                    <td>
-                        <input type="text" placeholder="Year">
-                    </td>
-                    <td>
-                        <input type="text" placeholder="Gread/Divigion">
-                    </td>
-                    <td>
-                        <input type="text" placeholder="GPA/Percantage">
-                    </td>
-                </tr>
-            </table>
-           </fieldset>
-        </div>
-
-
-        <!-- area of interst -->
-        <div class="anything">
-            <fieldset> <legend><center><h1>Ask anything</h1></center></legend>
-            <!-- <tr>
-                <td>
-                 <fieldset> <legend><h1><center>Please list your favorite sport, hobbies, and special interests.</center></h1></legend>
-                    <hr>
-                </td> -->
-                <table>
-                <tr>
-                <td>
-                    <textarea rows="12" col="40" placeholder="Enter your message" class="add" ></textarea>
-                </td>
-            </tr>
-        </table>
-        </fieldset>
-        </div>
-
-
-        <!-- button -->
-        <div class="button">
-            <table>
-        <tr>
-            <td>
-                <input type="submit" value="Submit">
-                <input type="reset" value="Reset">
-            </td>
-        </tr>
-    </table>
-    </div>
-           </table> 
-        </form>
-    </div>
- </div>
 </body>
+
 </html>
