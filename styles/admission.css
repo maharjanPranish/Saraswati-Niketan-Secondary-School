@@ -1,0 +1,108 @@
+body    {
+    color:yellow;
+}
+
+.gender-select{
+    margin: 1.4rem 0;
+}
+input#student-name,#date-of-birth,#nationality,#previous-school,#father-name,#father-contact,#mother-name,#mother-contact,#guardian-name,#guardian-contact
+  {
+    height:2.03rem;
+    margin-bottom: 1.04rem;
+}
+#other-information{
+    margin-bottom: 1rem;
+}
+select#blood,#religion,#admission-for{
+    margin-bottom: 1.04rem;
+ height: 2.03rem;
+}
+h6{
+    text-align: center;
+    font-size: 0.8rem;    
+        margin: 0;
+    }
+    main {
+        max-width: 650px;
+        margin: auto;
+        background: url("logo.png");
+        background-repeat:no-repeat;
+        background-size: cover;
+        background-position: center;
+        /* filter: blur(8px);
+        -webkit-filter: blur(8px); */
+        
+    }
+
+    label {
+        font-size: 1.6rem;
+        margin: 0;
+        cursor: pointer;
+    }
+    legend{
+        padding:1.07rem;
+        font-size: 1.7rem;
+    }
+
+    fieldset {
+        padding: 0 1.06rem;
+        display: grid;
+    }
+    .gender-box{
+        display: flex;
+        justify-content: space-between;
+        margin: 0.2rem 0;
+    }
+    .gender-label{
+        margin:0;
+        padding: 0;
+    }
+
+    .gender-male-female{
+        display: flex;
+        align-items: center;
+    }
+    option{
+        background:aquamarine;
+    }
+    #btn{
+        margin: 0.6rem;
+        display: flex;
+        justify-content: space-around;
+    }
+    .btn{
+        
+        padding: 12px;
+        background-color: #000;
+        color: #fffbfb;
+        border-radius: 8px;
+        /* margin: 0.4rem 3rem; */
+        cursor: pointer;
+    }
+    .btn:hover{
+        color: #000;
+        background-color:rgb(122, 83, 248);
+        border: 2px solid rgb(206, 206, 141);
+        transition: all 1s ;
+        
+    }
+
+
+    
+    main {
+        max-width: 500px;
+        margin: auto;
+        background-color: royalblue;
+    }
+
+    label {
+        cursor: pointer;
+    }
+
+    fieldset {
+        display: grid;
+    }
+    .gender-box{
+        display: flex;
+        justify-content: space-between;
+    }

@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <head>
 
     <link rel="stylesheet" href="../styles/base.css">
 
@@ -16,39 +16,11 @@
 
 
 </head>
-<style>
-    h6{
-        margin: 0;
-    }
-    main {
-        max-width: 500px;
-        margin: auto;
-        /* background-color: royalblue; */
-    }
-
-    label {
-        cursor: pointer;
-    }
-
-    fieldset {
-        display: grid;
-    }
-    .gender-box{
-        display: flex;
-        justify-content: space-between;
-    }
-
-    option{
-        background: url("library.jpg");
-    }
-    
-</style>
-
 <body>
     <header>
         <div class="top">
 
-            <img src="pictures/logo_saraswati-niketan.png" alt="" srcset="" class="logo">
+            <img src="../pictures/logo_saraswati-niketan.png" alt="" srcset="" class="logo">
 
             <div class="item">
                 <ul>
@@ -103,15 +75,17 @@
                     <input type="date" name="date-of-birth" id="date-of-birth">
 
                     <section class="gender-box">
-                        <label for="gender">
+                        <label for="gender" class="gender-label">
                             Gender:
                         </label>
-                        <div>
+
+                        <div class="gender-male-female">
                             <input type="radio" name="male" value="male" id=""> Male
                         </div>
-                        <div>
-                            <input type="radio" name="female" value="female" id=""> Female
+                        <div class="gender-male-female">
+                            <input type="radio" name="male" value="female" id=""> Female
                         </div>
+                        
                     </section>
 
                     <label for="blood">
@@ -268,9 +242,12 @@
                     
                     <h6>(to be filled if any one other than father/mother)</h6>
                 </fieldset>
+                <div id="btn">
 
-                <button type="submit" value="submit">Submit</button>
-                <button type="reset" value="reset">Reset</button>
+                
+                <button type="submit" value="submit" class="btn">Submit</button>
+                <button type="reset" value="reset" class="btn">Reset</button>
+            </div>
             </form>
         </main>
 
