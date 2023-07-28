@@ -306,7 +306,7 @@ input[type=text] {
 
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
     .container-1 {
         display: flex;
         flex-wrap: wrap;
