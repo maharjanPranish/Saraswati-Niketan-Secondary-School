@@ -21,7 +21,7 @@ body {
 
 .container {
     height: 100vh;
-    background-image: url("../pictures/school-building111sky222.jpg.");
+    background-image: url("../pictures/school-building111sky222.jpg");
     background-position: center;
     background-size: cover;
     display: flex;
