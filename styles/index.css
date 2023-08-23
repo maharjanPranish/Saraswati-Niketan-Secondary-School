@@ -21,7 +21,7 @@ body {
 
 .container {
     height: 100vh;
-    background-image: url("../pictures/school-building.JPG");
+    background-image: url("../pictures/school-building111sky222.jpg.");
     background-position: center;
     background-size: cover;
     display: flex;
@@ -41,7 +41,7 @@ body {
 }
 
 .welcome {
-    background-color: rgb(255, 255, 255, 0.2);
+    background-color: rgb(255, 255, 255, 0.5);
     text-shadow: 2px 2px rgb(0, 0, 128);
     border-radius: 1rem;
     color: rgb(128, 0, 128);
