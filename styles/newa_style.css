@@ -3,6 +3,10 @@
     src: url(../font/NotoSansNewa-Regular.otf);
  }
  
+ main{
+font-size: 1.5rem;
+}
+
  .prachalit{
     font-family: myFirstFont;
  }

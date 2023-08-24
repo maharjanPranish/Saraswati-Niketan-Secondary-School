@@ -1,16 +1,19 @@
 .content-heading {
     margin-top: 1rem;
     text-align: center;
+    color: white;
 }
 
 .content {
     font-size: 1.2rem;
     text-align: justify;
     margin: 1rem;
+    color: white;
 }
 
 .color {
     background-color: rgb(108, 108, 216);
+    color: white;
 }
 
 .grade {
