@@ -35,6 +35,10 @@ h1 {
         margin-top: 2rem;
     }
 }
+
+.principal-message{
+    background-color: rgb(1, 28, 90);
+}
 .principal-image-box{
     text-align: center;
     color: yellow;
