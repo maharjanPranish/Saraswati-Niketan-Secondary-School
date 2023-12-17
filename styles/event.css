@@ -16,23 +16,6 @@ h1{
     margin: 0.7rem;
     text-align: center;
 }
-/* .event-links a{
-    display: flex;
-    text-decoration: none;
-    color: white;
-}
- ul{
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-    
-}
- li{
-    list-style: none;
-    display: flex;
-    margin: auto; 
-} */
 
 .events1{
     border: solid 2px rgb(138, 141, 141);
@@ -54,7 +37,6 @@ h1{
 .events2{
     border: solid 2px rgb(138, 141, 141);
     padding: 1rem;
-    /* background-color: rgb(169, 241, 217); */
     background-color:rgb(252 186 99);
     margin: 1rem;
     border-top-left-radius: 3rem;
@@ -71,7 +53,6 @@ h1{
 .events3{
     border: solid 2px rgb(138, 141, 141);
     padding: 1rem;
-    /* background-color: rgb(172, 246, 222); */
     background-color:rgb(252 186 99);
     margin: 1rem;
     border-top-right-radius: 3rem;
@@ -88,7 +69,6 @@ h1{
 .events4{
     border: solid 2px rgb(138, 141, 141);
     padding: 1rem;
-    /* background-color: rgb(119, 234, 201); */
     background-color:rgb(252 186 99);
     margin: 1rem;
     border-top-left-radius: 3rem;
@@ -105,7 +85,6 @@ h1{
 .events5{
     border: solid 2px rgb(138, 141, 141);
     padding: 1rem;
-    /* background-color: rgb(119, 234, 201); */
     background-color:rgb(252 186 99);
     margin: 1rem;
     border-top-right-radius: 3rem;
@@ -122,7 +101,6 @@ h1{
 .events6{
     border: solid 2px rgb(138, 141, 141);
     padding: 1rem;
-    /* background-color: rgb(119, 234, 201); */
     background-color:rgb(252 186 99);
     margin: 1rem;
     border-top-left-radius: 3rem;
@@ -140,7 +118,6 @@ h1{
 .events7{
     border: solid 2px rgb(138, 141, 141);
     padding: 1rem;
-    /* background-color: rgb(119, 234, 201); */
     background-color:rgb(252 186 99);
     margin: 1rem;
     border-top-right-radius: 3rem;
@@ -157,7 +134,6 @@ h1{
 .events8{
     border: solid 2px rgb(138, 141, 141);
     padding: 1rem;
-    /* background-color: rgb(119, 234, 201); */
     background-color:rgb(252 186 99);
     margin: 1rem;
     border-top-left-radius: 3rem;
@@ -171,22 +147,9 @@ h1{
     color: rgb(6, 31, 91);
     font-family: cursive;
 }
-/* .events9{
-    border: solid 2px rgb(138, 141, 141);
-    padding: 10px;
-    background-color: rgb(119, 234, 201);
-    margin: 10px;
-}
-.abc9{
-    text-align:center;
-    color: rgb(6, 31, 91);
-    font-family: cursive;
-} */
 .picture{
     height:200px;
     width: 300px;
-    /* gap: 0px; */
     margin: 25px;
-    /* justify-content: space-between; */
     border-radius: 20px;
 }
